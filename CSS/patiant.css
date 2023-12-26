@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo3{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../Imgs/31.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
+}
+.mb-3{
+    width: 50%;
+    margin: auto;
+    
+}
+.input6{
+    padding-top: 200px;
+}
+.logo3 h2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 28%;
+    left: 50%;
+    font-weight: bold;
+}
+.logo3 .bookingbtn{
+    position: absolute;
+    text-decoration: none;
+    top: 45%;
+    left: 30%;
+   
+
+}
+.bookingbtn button{
+    width: 250px;
+    height: 40px;
+    background-color: rgba(250, 235, 215, 0);
+    border: 1px solid black;
+    border-radius:10px ;
+    transition: 1s;
+}
+.logo3 button:hover{
+    background-color: rgba(0, 0, 0, 0.307);
+    color: white;
+}
+.logo3 a{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.logo3 a:hover{
+    color: white;
+}
+.rights{
+    width: 100%;
+    text-align: center;
+
+}
+.title7{
+    width: 70%;
+    margin: auto;
+
+}
+.title7 h1{
+    margin-top: 60px;
+}
+.title7 img{
+    margin-top: 10px;
+    width: 850px;
+    height: 300px;
+}
+.title7 ul{
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 30px;
+    text-align: left;
+    color: rgb(65, 81, 82);
+    font-weight: bold;
+}
+.title7 ul li{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(80, 118, 120);
+}
+.title8{
+    width: 60%;
+    margin: auto;
+
+}
+.title8 h1{
+    margin-top: 60px;
+}
+.title8 img{
+    margin-top: 10px;
+    width: 850px;
+    height: 300px;
+    border-radius: 3px;
+}
+.title8 ul{
+    width: 80%;
+    /* margin-left: 10px; */
+    margin-top: 30px;
+    text-align: left;
+    color: rgb(65, 81, 82);
+    font-weight: bold;
+}
+.title8 ul li{
+    margin-left: 20px;
+    margin-top: 30px;
+    color: rgb(97, 140, 143);
+}
+.title8 ul li.list1{
+    margin-left: 100px;
+    margin-top: 13px;
+}
+.booking{
+    width: 100%;
+
+}
+.booking1{
+    width: 60%;
+    margin: auto;
+    /* background-color: aqua; */
+    /* height: 500px; */
+}
+.booking-title{
+    width: 100%;
+    text-align: center;
+}
+.booking-title h1{
+    margin-top: 100px;  
+
+}
+.booking-title p{
+    padding-top: 20px;
+    width: 80%;
+    color: #a9b9b4;
+    text-align: left;
+    margin: auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  padding: 30px;
+}
+.wrapper .form{
+  width: 100%;
+}
+
+.wrapper .form .inputfield{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .form .inputfield label{
+   width: 200px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  height: 50px;
+}
+
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  height: 155px;
+  resize: none;
+}
+
+.wrapper .form .inputfield .custom_select{
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.wrapper .form .inputfield .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.wrapper .form .inputfield .custom_select select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+
+
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .textarea:focus,
+.wrapper .form .inputfield .custom_select select:focus{
+  border: 1px solid #fec107;
+}
+
+.wrapper .form .inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+.wrapper .form .inputfield .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
+  background: #fec107;
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+  display: block;
+}
+
+.wrapper .form .inputfield .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapper .form .inputfield .btn:hover{
+  background: #ffd658;
+}
+
+.wrapper .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
+.inputfield.terms{
+    padding: 0;
+    margin: 0;
+}
+
+fieldset {
+  border: none;
+}
+legend{
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #757575;
+}
+
+
+/* radio */
+.radio-wrapper {
+  border-radius: 1.6rem;
+  background-color: var(--primary-100);
+  border: 1px solid #bbc1c1;
+  padding: 9px;
+  width: 225px;
+  font-weight: bold;
+  font-size: 14px;
+  height: 30px;
+}
+
+.radio-wrapper > div {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.radio-wrapper input[type="radio"] {
+  appearance: none;
+  border: 1px solid #bbc1c1;
+  height: 15px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.h33{
+  margin-bottom: 25px;
+}
+
+.radio-wrapper input[type="radio"]:checked {
+  border: 6px solid black;
+}
+
+.radio-wrapper:not(:has(:checked)) {
+  opacity: 0.6;
+}
+legend + .radio-wrapper {
+  margin-top: 3rem;
+}
+
+.radio-wrapper + .radio-wrapper,
+.checkbox-wrapper + .checkbox-wrapper {
+  margin-top: 1rem;
+}
+
+.checkbox-wrapper label {
+  margin-top: 0.4rem;
+}
+
+button {
+  margin-top: 5rem;
+  width: 60%;
+  height: 50px;
+  background-color: #130f28;
+  border: 0;
+  color: #fff;
+  /* padding-block: 2rem; */
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-left: 70px;
+}
